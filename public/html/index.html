@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUKALAPAK NIKO</title>
+    <link rel="stylesheet" href="../css/output.css">
+    <script src="https://unpkg.com/alpinejs" defer></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="font-famil">
+    <header class="w-full h-[42px] bg-slate-100 flex items-center gap-5 text-[15px] text-slate-700 fixed z-10 top-0">
+        <a href="" class="ml-6">Download app</a>
+        <a href="">Mulai Jualan</a>
+        <a href="">Jadi Mitra</a>
+        <a href="">BukaBantuan</a>
+    </header>
+    <header class="w-full h-[72px] border-y flex items-center fixed mt-10 bg-white z-10 top-0">
+        <a href=""><img src="../img/logo.svg" alt="" class="w-32 m-[34px]"></a>
+
+        <nav class="border-solid border-[1px] w-[400px] h-10 flex items-center justify-between">
+            <input type="text" placeholder="" class="h-8 w-96 outline-none p-3">
+            <button class="w-11 h-8 border-l"><img src="../img/searc.svg" alt="" class="w-8 h-8 m-auto"></button>
+        </nav>
+        <details class="ml-10 mr-8 w-28">
+            <summary class="hover:text-blue-600 hover:cursor-pointer">Kategori</summary>
+            <div class="w-full h-[520px] right-0 bg-white absolute mt-6 m-auto">
+                <div class="w-3/4 pt-7 m-auto">                    
+                    <div class="flex items-center bg-white justify-between">
+                        <h1 class="text-3xl">Kategori Barang</h1>
+                        <img src="../img/pop-up/close.png" alt="close" class="w-7 h-7">
+                    </div>
+                    <hr class="mt-3">
+                    <div class="flex mt-5 gap-5">
+                        <nav class="w-[30%]">
+                            <ul class="h-[340px] overflow-y-auto">
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>ItemX</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Sepeda</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Olahraga</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Motor</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Mobil,Part dan Aksesoris</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Elektronik</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Handphone</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="flex items-center justify-between p-3 hover:bg-slate-200 hover:font-bold">
+                                    <p>Komputer</p>
+                                    <img src="../img/pop-up/panah.png" alt="" class="w-4 h-4">
+                                </li>
+                                <li class="p-4"> 
+                                    <a href="" class="text-blue-600">Lainnya</a>
+                                </li>
+                            </ul>
+                            
+                            <p class="text-lg text-black mt-5 text-center py-2 px-2 border-2 border-black">Lihat semua kategori</p>
+                        </nav>
+
+                        <nav class="w-[70%] h-[400px] overflow-y-auto text-lg">
+                            <!-- <nav class="itemX">
+                                <p class="font-bold">Lainnya</p>
+                                <ul class="text-sm">
+                                    <li>Trading Cards</li>
+                                    <li>Pokemon</li>
+                                    <li>Magic The Gathering</li>
+                                    <li>Sports Card</li>
+                                    <li>One Piece</li>
+                                    <li>Digimon</li>
+                                    <li>Non-Sports Cards</li>
+                                    <li>Vehicle Models</li>
+                                    <li>Diecast</li>
+                                    <li>Remote Control</li>
+                                    <li>Aircraft Models</li>
+                                    <li>Figures</li>
+                                    <li>Anime Figure</li>
+                                    <li>Foreign/Westren Figures</li>
+                                    <li>Funko Pop!</li>
+                                    <li>Pop Mart</li>
+                                    <li>Tickets</li>
+                                    <li>Ichiban Kuji</li>
+                                    <li>Tournament Ticket</li>
+                                    <li>Hobbies</li>
+                                    <li>LEGO</li>
+                                    <li>Mini 4WD</li>
+                                    <li>Plastic Model</li>
+                                </ul>
+                                <h2 class="mt-5 font-bold">BukaMall</h2>
+                            </nav> -->
+
+                            <nav class="grid grid-rows-2 w-full">
+                                <nan class="bg-red">
+                                    <p>Sepeda & komponennya</p>
+                                    <ul>
+                                        <li>Fullbike</li>
+                                        <li>Frame</li>
+                                        <li>Fork & Suspension</li>
+                                        <li>Steering</li>
+                                        <li>Brake</li>
+                                        <li>Saddle & Seatpost</li>
+                                        <li>Drivetrain</li>
+                                        <li>Wheel(Hub,Rims,dll)</li>
+                                    </ul>
+                                    <br>
+                                    <p>Aksesoris & lainnya</p>
+                                    <ul>
+                                        <li>Outwear</li>
+                                        <li>Equipment & Tools</li>
+                                        <li>Part Generik</li>
+                                        <li>Nutrition & Energy</li>
+                                    </ul>
+                                </nan>
+                                <nav class="bg-blue-600">
+                                    <p>Lainnya</p>
+                                    <ul>
+                                        <li>Gembok</li>
+                                        <li>Bel</li>
+                                        <li>Lampu & senter</li>
+                                        <li>Bottle & cage</li>
+                                        <li>Rack & Panner</li>
+                                        <li>Pompa</li>
+                                        <li>Carrier,Hanger,& Bike stand</li>
+                                        <li>Fender & Mudguard</li>
+                                        <li>Sticker & Decal</li>
+                                        <li>Speedometer</li>
+                                        <li>Tools & Others</li>
+                                        <li>Helm</li>
+                                        <li>Topi</li>
+                                        <li>Cycling Cap</li>
+                                        <li>Bandana & Masker</li>
+                                        <li>Goggle & Kacamata</li>
+                                        <li>Tas</li>
+                                        <li>Body Protecktor</li>
+                                        <li>Jersey</li>
+                                        <li>kaos</li>
+                                        <li>Jaket</li>
+                                        <li1>Gloves</li1>
+                                        <li>Arm Warmer</li>
+                                        <li>Pants</li>
+                                        <li>Sepatu</li>
+                                    </ul>
+                                </nav>
+                                <nav class="col-span-2">
+                                    <p>BukaMall</p>
+                                    <nav class="flex gap-5 text-base">
+                                        <nav class="w-24 h-28 text-center border-2 border-b-slate-500">
+                                            <img src="../img/pop-up/sepeda/bike.jpeg" alt="" class="w-12 h-12 mt-2 m-auto">
+                                            <p>Bike</p>
+                                            <p class="-mt-1">Center</p>
+                                        </nav>
+                                        <nav class="w-24 h-28 text-center border-2 border-b-slate-500">
+                                            <img src="../img/pop-up/sepeda/vesantra.jpg" alt="" class="w-12 h-12 mt-2 m-auto">
+                                            <p>TOKO</p>
+                                            <p class="-mt-1">SEPEDA</p>
+                                            <p class="-mt-1">VESANTRA</p>
+                                        </nav>
+                                        <nav class="w-24 h-28 text-center border-2 border-b-slate-500">
+                                            <img src="../img/pop-up/sepeda/pasific.jpeg" alt="" class="w-12 h-12 mt-2 m-auto">
+                                            <p>Pasific</p>
+                                            <p class="-mt-1">One Team</p>
+                                        </nav>
+                                        <nav class="w-24 h-28 text-center border-2 border-b-slate-500">
+                                            <img src="../img/pop-up/sepeda/ontel.jpg" alt="" class="w-12 h-12 mt-2 m-auto">
+                                            <p>Serba</p>
+                                            <p class="-mt-1">Sepeda</p>
+                                        </nav>
+                                        <nav class="w-24 h-28 text-center border-2 border-b-slate-500">
+                                            <img src="../img/pop-up/sepeda/pelita.jpeg" alt="" class="w-12 h-12 mt-2 m-auto">
+                                            <p>Toko</p>
+                                            <p class="-mt-1">Sepeda</p>
+                                            <p class="-mt-1">Pelita</p>
+                                            <p class="-mt-1">Abadi</p>
+                                        </nav>
+                                        <nav class="w-24 h-28 text-start border-2 border-b-slate-500 text-blue-500">
+                                            <br><br>
+                                            <a href="" class="mt-10">Lihat</a>
+                                            <a href="" class="-mt-1">BukaMall</a>
+                                        </nav>
+                                    </nav>
+                                </nav>
+                            </nav>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary class="w-32 hover:text-blue-600 hover:cursor-pointer">Virtual</summary>
+        </details>
+
+        <nav class="flex items-center justify-around w-40 h-11 ml-[250px] border-l">
+            <a href="#" class="hover:text-blue-600">Daftar</a>
+            <a href="#" class="hover:text-blue-600">Login</a>
+        </nav>
+        
+    </header>
+
+<!--AWAL MAIN  -->
+    <main class="mt-[180px]">
+
+<!-- Start carousel 1 -->
+        <div class="">
+            <div x-data="carousel()" class="m-auto w-[95%] h-[220px]">
+                <nav  class="h-full w-full flex gap-2 justify-center">
+                    <img class="img1 h-full w-[48%] object-cover object-center rounded-lg" :src="image[selected]" alt="mountains"/>
+                    <img class="img1 h-full w-[48%] object-cover object-center rounded-lg" :src="image2[selected]" alt="mountains"/>
+                </nav>
+        
+                <button @click="if (selected > 0){selected -= 1} else {selected=image.length-1}" class="absolute inset-y-0 left-16 px-2 mt-[265px] h-10 w-10 bg-white cursor-pointer rounded-full">
+                    <span class="text-black">
+                        &#10094;
+                    </span>
+                </button>
+        
+                <button @click="if (selected < image.length-1){selected += 1} else {selected=0}" class="absolute inset-y-0 right-16 px-2 mt-[265px] h-10 w-10 bg-white cursor-pointer rounded-full">
+                    <span class="text-black">
+                        &#10095;
+                    </span>
+                </button>
+                
+                
+                <div class="w-full p-4 flex justify-between items-center space-x-2">
+                    <nav class="flex gap-2">1
+                        <template x-for="(image,index) in image" :key="index">
+                            <button @click="selected = index" :class="{'bg-gray-300': selected == index,'bg-gray-500' : selected != index}" class="h-[6px] w-[6px] rounded-full hover:bg-gray-300 ring-2 ring-gray-300"></button>
+                        </template>
+                    </nav>
+                    <a href="" class="mr-80 font-serif text-blue-600">Lihat Semua</a>
+                </div>
+                
+            </div>
+        </div>
+<!-- akhir carousel 1 -->
+
+
+        <div class="w-full h-44 flex items-center justify-around font-bold mt-20">
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/seller.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Super Seller</p>
+            </a>
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/emas.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">BukaEmas</p>
+            </a>
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/pulsa.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Pulsa Prabayar</p>
+            </a>
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/data.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Paket Data</p>
+            </a>
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/game.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Top Up Game</p>
+            </a>
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/listrik.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Token Listrik</p>
+            </a>
+            <a href="" class="w-[100px] h-[120px] text-center">
+                <img src="../img/img1/bayar.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Listrik Pascabayar</p>
+            </a>
+            <a href="" class="w-[80px] h-[120px] text-center">
+                <img src="../img/img1/kartu.jpg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Kartu Prakerja</p>
+            </a>
+            <a href="" class="w-[80px] h-[120px] text-center">
+                <img src="../img/img1/menu.jpeg" alt="" width="60px" height="60px" class="m-auto mb-3">
+                <p class="text-base">Semua Menu</p>
+            </a>
+        </div>
+
+        <div class="w-full h-40 my-20"><a href=""><img src="../img/voucher.jpg" alt="" class="overflow-auto w-[95%] m-auto"></a></div>
+
+        <div class="w-full h-[575px] bg-slate-200 flex justify-around items-center">
+            <section class="w-72 h-[420px] ml-4">
+                <nav class="flex items-center gap-4">
+                    <img src="../img/img2/flash.svg" alt="">
+                    <h2 class="text-3xl">Flash Deal</h2>
+                </nav>
+                <h4 class="text-xl text-abu pt-5  pb-20">Berakhir Dalam 01 : 44 : 45</h4>
+                <h2 class="text-[27px] leading-tight font-bold">Diskon tiap hari sampai<br> 90%! khusus niko kwkk</h2>
+                <p class="text-sm text-slate-800 pt-4 font-famil2">Mau nikmatin <b class="text-black">Flash Deal?</b><br> Download dulu aplikasi Bukalapak</p>
+                <br>
+                <a href="" class="px-5 py-3 text-white rounded-md bg-red hover:bg-rose-700">Mau download dong</a>
+            </section>
+            <section class="w-[950px] h-[460px] flex justify-between items-center overflow-y-hidden gap-3">
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/1.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7"> Phone Holder Tempat Dudukan HP Lipat Folding</a>
+                            <strong class="pt-2 block text-xl">Rp8.287</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp50.000</s>-83%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.8</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 5</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/2.jpg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">LAMPU TENAGA SURAYA DINDING WALL</a>
+                            <strong class="pt-2 block text-xl">Rp27.225</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp135.000</s>-79%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.9</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/3.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">pAKET 2 Bantal Tidur Combo pillow sleepmax</a>
+                            <strong class="pt-2 block text-xl">Rp65.671</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp283.600</s>-76%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-slate-400">5</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/4.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Paket Backgrouns stand 68 x 70 plus Background</a>
+                            <strong class="pt-2 block text-xl">Rp121.875</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp435.000</s>-71%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">5</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+
+                <!-- <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/5.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Goto DB 4 Pro Masker Dyckbill Mask 4 play</a>
+                            <strong class="pt-2 block text-xl">Rp16.087</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp56.300</s>-71%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/6.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Delcell Leo Powerbank 10500mAh QC 3.0 and..</a>
+                            <strong class="pt-2 block text-xl">Rp121.875</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp399.000</s>-69%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.9</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/7.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Gidget Mouse Bluetooth Slim Silnet for Android..</a>
+                            <strong class="pt-2 block text-xl">Rp8.287</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp50.000</s>-83%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.8</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 5</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/8.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Uneed TWS Bluetooth 5.1 Earphone Verse v6</a>
+                            <strong class="pt-2 block text-xl">Rp175.149</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp499.000</s>-64%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.9</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/9.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">VIVAN Power Bank 4000mAh Power..</a>
+                            <strong class="pt-2 block text-xl">Rp291.525</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp230.000</s>-58%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.6</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 5</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/10.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Keyboard Gaming Mechanical AULA F-32B</a>
+                            <strong class="pt-2 block text-xl">Rp96.525</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp230.000</s>-58%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.6</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 5</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/11.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Delcell 1000mAh Powerbank EVO Quic</a>
+                            <strong class="pt-2 block text-xl">Rp8.287</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp50.000</s>-83%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.8</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 5</p>
+                </nav>
+
+                <nav class="w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <a href=""><img src="../img/img3/12.jpeg" alt=""></a>
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline hover:underline-offset-7">Hannochs Lampu LED Nova 12 Watt Cahaya</a>
+                            <strong class="pt-2 block text-xl">Rp164.775</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp300.000</s>-46%</h5>
+                            <nav class="pt-3 flex items-center gap-1">
+                                <img src="../img/img3/bintang.png" alt="" class="">
+                                <p class="font-famil2 text-abu">4.9</p>
+                            </nav>
+                        </article>
+                    </nav>
+                    <nav class="w-full h-[9px] rounded-lg bg-black mt-3 bg-gradient-to-r from-satu to-dua">
+                    </nav>
+                    <p class="font-famil2 text-sm text-slate-600">Tersisa 3</p>
+                </nav>
+            </section> -->
+
+            <a href="" class="font-serif text-blue-600 absolute right-6 -mt-[450px]">Lihat semua</a>
+        </div>
+
+<!-- START KELILING MALL TANPA KAKI PEGAL -->
+        <div class="w-full mt-12">
+            <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+                <h1 class="text-3xl">Keliling mall tanpa kaki pegal</h1>
+                <nav class="flex items-center gap-8 text-base font-medium">
+                    <p>100% Genuine</p>
+                    <ul class="flex items-center list-disc gap-8">
+                        <li>Official Store</li>
+                        <li>14 Days Return Guarantee</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="w-[95%] h-[400px] m-auto rounded-xl mt-10 flex items-center justify-center">
+                <nav class="w-[25%] h-full bg-abu flex flex-col justify-evenly items-center bg-[url('../img/bukamall-banner.webp')] bg-center bg-cover">
+                    <img src="../img/bukamall.png" alt="" class="w-[168px] h-[55px] -mt-3">
+                    <p class="-mt-24 tracking-wider font-famil2 text-white text-[15px] text-center">Di sini kamu bisa lihat-lihat dan beli <br> barang asli dari bebagai brand resmi</p>
+                    <a href="" class="-mt-24 px-5 py-2 text-white rounded-md bg-red hover:bg-rose-700">Yuk, Keliling Mall!</a>
+                </nav>
+                <nav class="w-[75%] h-full border flex">
+                    <!-- <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/earphone.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo-earphone.jpg" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Nakamichi</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/prozhic.png" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/LOGO-PROCHIZ.JPG" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">PROCHIZ Official<br>Store</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/img3.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo-im3.jpeg" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">IM3 Official Store</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/usb.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo-usb.jpg" alt="" class="w-[120px] h-[120px]">
+                        </nav>        
+                        <h5 class="text-center mt-6 text-base font-bold">Aukey</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/sidomuncul.png" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo-sidomuncul.jpg" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Sido Muncul</h5>
+                    </nav> -->
+
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/realfood.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/LOGO_REALFOOD.png" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Realfood</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/philips.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo-philips.jpeg" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Philips Lighting</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/combodeals.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo-combodeals.jpg" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Nutrimart</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/orbit.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/Logo-orbit.png" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Telkomsel<br>Official Store</h5>
+                    </nav>
+                    <nav class="w-[20%] h-full border">
+                        <img src="../img/img5/kintakun.jpeg" alt="" class="">
+                        <nav class="w-[150px] h-[150px] bg-white relative shadow-lg m-auto -mt-14 rounded-lg flex justify-center items-center">
+                            <img src="../img/img5/logo_kintakun.jpg" alt="" class="w-[120px] h-[120px]">
+                        </nav>
+                        <h5 class="text-center mt-6 text-base font-bold">Kintakun Sprei<br>Bedcover</h5>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+
+<!-- START LAGI POPULER -->
+        <div class="w-full mt-12">
+            <div class="w-[95%] m-auto font-semibold">
+                <h1 class="text-3xl">Lagi Populer</h1>
+            </div>
+            <div class="w-[95%] h-[170px] m-auto mt-12 flex items-center justify-between">
+                <a href=""><img src="../img/img6/sepeda.jpeg" alt="" class="w-[200px] h-[200px] rounded-lg  hover:border hover:border-sky-600"></a>
+                <a href=""><img src="../img/img6/bola.jpeg" alt="" class="w-[200px] h-[200px] rounded-lg  hover:border hover:border-sky-600"></a>
+                <a href=""><img src="../img/img6/motor.jpeg" alt="" class="w-[200px] h-[200px] rounded-lg  hover:border hover:border-sky-600"></a>
+                <a href=""><img src="../img/img6/mobil.jpeg" alt="" class="w-[200px] h-[200px] rounded-lg  hover:border hover:border-sky-600"></a>
+                <a href=""><img src="../img/img6/tv.jpeg" alt="" class="w-[200px] h-[200px] rounded-lg  hover:border hover:border-sky-600"></a>
+                <a href=""><img src="../img/img6/hp.jpeg" alt="" class="w-[200px] h-[200px] rounded-lg  hover:border hover:border-sky-600"></a>       
+            </div>
+        </div>
+<!-- END LAGI POPULER -->
+
+<!-- START PRODUK RUMAH TANGGA UNGGULAN  -->
+        <div class="w-full mt-12">
+            <div class="w-[95%] m-auto font-semibold">
+                <h1 class="text-3xl">Produk Rumah Tangga Unggulan</h1>
+            </div>
+
+            <div class="w-[95%] h-[420px] m-auto flex justify-start gap-10 mt-12">
+                <nav class="group w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <div x-data="carousel()" class="relative m-auto group/1">
+                            <a href="">
+                                <img :src="image4[selected]" alt="">
+                            </a>
+                            <button @click="if (selected > 0){selected -= 1} else {selected=image4.length-1}" class="hidden group-hover/1:block absolute inset-y-0 left-0 px-2 mt-20 h-16 w-8 rounded-r-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10094;
+                                </span>
+                            </button>
+                        
+                            <button @click="if (selected < image4.length-1){selected += 1} else {selected=0}" class="hidden group-hover/1:block absolute inset-y-0 right-0 px-2 mt-20 h-16 w-8 rounded-l-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10095;
+                                </span>
+                            </button>
+                        </div>
+                       
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline"> PAULMAY Sepatu Slip On Pria Classic Canvas Shoes</a>
+                            <strong class="pt-2 block text-xl">Rp191.520</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp399.000</s>-52%</h5>
+                            <nav class="pt-3 flex items-center justify-start gap-10">
+                                <nav class="flex items-center gap-1">
+                                    <img src="../img/img3/bintang.png" alt="" class="">
+                                    <p class="font-famil2 text-abu">5</p>
+                                </nav>
+                                <p class="text-abu font-famil2 text-sm">Terjual 9</p>
+                            </nav>
+                            <nav class="flex justify-between items-start mt-2">
+                                <p class="text-abu font-famil2 text-sm group-hover:hidden">Jakarta Utara</p>
+                                <a href="" class="hidden group-hover:block font-famil2 text-abu text-sm  hover:underline">Paul May <br> 6rb Feedback Positif</a>
+                                <img src="../img/img7/diamond-pink.svg" alt="">
+                            </nav>
+                        </article>
+                    </nav>
+                </nav>
+
+                <nav class="group w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <div x-data="carousel()" class="relative m-auto group/2">
+                            <a href="">
+                                <img :src="image5[selected]" alt="">
+                            </a>
+                            <button @click="if (selected > 0){selected -= 1} else {selected=image5.length-1}" class="hidden group-hover/2:block absolute inset-y-0 left-0 px-2 mt-20 h-16 w-8 rounded-r-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10094;
+                                </span>
+                            </button>
+                        
+                            <button @click="if (selected < image5.length-1){selected += 1} else {selected=0}" class="hidden group-hover/2:block absolute inset-y-0 right-0 px-2 mt-20 h-16 w-8 rounded-l-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10095;
+                                </span>
+                            </button>
+                        </div>
+
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline">Duraking Daily Wear Tencel Cotton Classic</a>
+                            <strong class="pt-2 block text-xl">Rp86.000</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp249.000</s>-65%</h5>
+                            <nav class="pt-3 flex items-center justify-start gap-10 ">
+                                <nav class="flex items-center gap-1">
+                                    <img src="../img/img3/bintang.png" alt="" class="">
+                                    <p class="font-famil2 text-abu">4.8</p>
+                                </nav>
+                                <p class="text-abu font-famil2 text-sm">Terjual 49</p>
+                            </nav>
+                            <nav class="flex justify-between items-start mt-2">
+                                <p class="text-abu font-famil2 text-sm group-hover:hidden">Kab. Bandung</p>
+                                <a href="" class="hidden group-hover:block font-famil2 text-abu text-sm  hover:underline">Duraking Outdoor an<br>14rb Feedback Positif</a>
+                                <img src="../img/img7/diamond-pink.svg" alt="">
+                            </nav>
+                        </article>
+                    </nav>
+                </nav>
+            </div>
+            
+        </div>
+        <hr class="w-[95%] h-1 m-auto">
+<!-- END PRODUK RUMAH TANGGA UNGGULAN-->
+
+<!-- START SERBA SERU PRODUK TERBARU -->
+        <div class="w-full mt-12">
+            <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+                <h1 class="text-3xl">Serba Seru Produk Terbaru</h1>
+                <a href="" class="text-blue-600 hover:underline hover:underline-offset-8 font-famil2">Lihat Semua Barang</a>
+            </div>
+            
+            <div class="w-[95%] h-[420px] m-auto flex justify-start gap-10 mt-12">
+                <nav class="group w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <div x-data="carousel()" class="relative m-auto group/3">
+                            <a href="">
+                                <img :src="image6[selected]" alt="">
+                            </a>
+                            <button @click="if (selected > 0){selected -= 1} else {selected=image6.length-1}" class="hidden group-hover/3:block absolute inset-y-0 left-0 px-2 mt-20 h-16 w-8 rounded-r-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10094;
+                                </span>
+                            </button>
+                        
+                            <button @click="if (selected < image6.length-1){selected += 1} else {selected=0}" class="hidden group-hover/3:block absolute inset-y-0 right-0 px-2 mt-20 h-16 w-8 rounded-l-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10095;
+                                </span>
+                            </button>
+                        </div>
+
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline">BTR RA X Bukalapak - <br>PIXELMODE Headpatc</a>
+                            <strong class="pt-2 block text-xl">Rp52.500</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp249.999</s>-79%</h5>
+                            <nav class="pt-3 flex items-center justify-start gap-10 ">
+                                <nav class="flex items-center gap-1">
+                                    <img src="../img/img3/bintang.png" alt="" class="">
+                                    <p class="font-famil2 text-abu">5</p>
+                                </nav>
+                                <p class="text-abu font-famil2 text-sm">Terjual 9</p>
+                            </nav>
+                            <nav class="flex justify-between items-start mt-2">
+                                <p class="text-abu font-famil2 text-sm group-hover:hidden">Jakarta Utara</p>
+                                <a href="" class="hidden group-hover:block font-famil2 text-abu text-sm  hover:underline">Bigetron<br>322 Feedback Positif</a>
+                                <img src="../img/img7/diamond-pink.svg" alt="">
+                            </nav>
+                        </article>
+                    </nav>
+                </nav>
+
+                <nav class="group w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <div x-data="carousel()" class="relative m-auto group/4">
+                            <a href="">
+                                <img :src="image5[selected]" alt="">
+                            </a>
+                            <button @click="if (selected > 0){selected -= 1} else {selected=image5.length-1}" class="hidden group-hover/4:block absolute inset-y-0 left-0 px-2 mt-20 h-16 w-8 rounded-r-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10094;
+                                </span>
+                            </button>
+                        
+                            <button @click="if (selected < image5.length-1){selected += 1} else {selected=0}" class="hidden group-hover/4:block absolute inset-y-0 right-0 px-2 mt-20 h-16 w-8 rounded-l-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10095;
+                                </span>
+                            </button>
+                        </div>
+
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline">PAULMAY Sepatu Sneakers Pria Dan..</a>
+                            <strong class="pt-2 block text-xl">Rp155.740</strong>
+                            <h5 class="text-red"><s class="text-abu">Rp599.000</s>-74%</h5>
+                            <nav class="pt-3 flex items-center justify-start gap-10 ">
+                                <nav class="flex items-center gap-1">
+                                    <img src="../img/img3/bintang.png" alt="" class="">
+                                    <p class="font-famil2 text-abu">5</p>
+                                </nav>
+                                <p class="text-abu font-famil2 text-sm">Terjual 4</p>
+                            </nav>
+                            <nav class="flex justify-between items-start mt-2">
+                                <p class="text-abu font-famil2 text-sm group-hover:hidden">Jakarta Utara</p>
+                                <a href="" class="hidden group-hover:block font-famil2 text-abu text-sm  hover:underline">Paul May<br>6rb Feedback Positif</a>
+                                <img src="../img/img7/diamond-pink.svg" alt="">
+                            </nav>
+                        </article>
+                    </nav>
+                </nav>
+
+                <nav class="group w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <div x-data="carousel()" class="relative m-auto group/4">
+                            <a href="">
+                                <img :src="image7[selected]" alt="">
+                            </a>
+                            <button @click="if (selected > 0){selected -= 1} else {selected=image7.length-1}" class="hidden group-hover/4:block absolute inset-y-0 left-0 px-2 mt-20 h-16 w-8 rounded-r-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10094;
+                                </span>
+                            </button>
+                        
+                            <button @click="if (selected < image7.length-1){selected += 1} else {selected=0}" class="hidden group-hover/4:block absolute inset-y-0 right-0 px-2 mt-20 h-16 w-8 rounded-l-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10095;
+                                </span>
+                            </button>
+                        </div>
+
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline">SANDAL JEPIT SUN SWALLOW TREK</a>
+                            <strong class="pt-2 block text-xl">Rp20.000</strong>
+                            <h5 class="text-red"><s class="text-abu">-</s>-</h5>
+                            <nav class="pt-3 flex items-center justify-start gap-10 ">
+                                <nav class="flex items-center gap-1">
+                                    <img src="../img/img3/bintang.png" alt="" class="">
+                                    <p class="font-famil2 text-abu">4.9</p>
+                                </nav>
+                                <p class="text-abu font-famil2 text-sm">Terjual 259</p>
+                            </nav>
+                            <nav class="flex justify-between items-start mt-2">
+                                <p class="text-abu font-famil2 text-sm group-hover:hidden">Kab. Bandung</p>
+                                <a href="" class="hidden group-hover:block font-famil2 text-abu text-sm  hover:underline">Ventela Supplier Official<br>4rb Feedback Positif</a>
+                                <img src="../img/img7/diamond-pink.svg" alt="">
+                            </nav>
+                        </article>
+                    </nav>
+                </nav>
+
+                <nav class="group w-[200px] h-[420px]">           
+                    <nav class="h-[400px] bg-white rounded-md overflow-hidden">
+                        <div x-data="carousel()" class="relative m-auto group/4">
+                            <a href="">
+                                <img :src="image8[selected]" alt="">
+                            </a>
+                            <button @click="if (selected > 0){selected -= 1} else {selected=image8.length-1}" class="hidden group-hover/4:block absolute inset-y-0 left-0 px-2 mt-20 h-16 w-8 rounded-r-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10094;
+                                </span>
+                            </button>
+                        
+                            <button @click="if (selected < image8.length-1){selected += 1} else {selected=0}" class="hidden group-hover/4:block absolute inset-y-0 right-0 px-2 mt-20 h-16 w-8 rounded-l-full bg-black opacity-30 cursor-pointer">
+                                <span class="text-white">
+                                    &#10095;
+                                </span>
+                            </button>
+                        </div>
+
+                        <article class="p-3">
+                            <a href="" class="font-famil2 text-slate-800 text-sm  hover:underline">MI-p39 P40 Celana Dalam Pria Boxer CD0</a>
+                            <strong class="pt-2 block text-xl">Rp25.000</strong>
+                            <h5 class="text-red"><s class="text-abu">-</s>-</h5>
+                            <nav class="pt-3 flex items-center justify-start gap-10 ">
+                                <nav class="flex items-center gap-1">
+                                    <img src="../img/img3/bintang.png" alt="" class="">
+                                    <p class="font-famil2 text-slate-400">4.8</p>
+                                </nav>
+                                <p class="text-abu font-famil2 text-sm">Terjual 1033</p>
+                            </nav>
+                            <nav class="flex justify-between items-start mt-2">
+                                <p class="text-abu font-famil2 text-sm group-hover:hidden">Kab. Tangerang</p>
+                                <a href="" class="hidden group-hover:block font-famil2 text-abu text-sm  hover:underline">Mmtoys_indonesia<br>8rb Feedback Positif</a>
+                                <img src="../img/img7/diamond-pink.svg" alt="">
+                            </nav>
+                        </article>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+        <hr class="w-[95%] h-1 m-auto">
+<!-- END SERBA SERU PRODUK TERBARU -->
+
+<!-- START PENCARIAN POPULER -->
+    <div class="w-full mt-12">
+        <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+            <h1 class="text-3xl">Pencarian Populer</h1>
+            <a href="" class="text-blue-600 hover:underline hover:underline-offset-8 font-famil2">Lihat Semua</a>
+        </div>
+        <div class="w-[95%] h-[70px] mt-7 m-auto flex justify-start items-start gap-4 font-famil2">
+            <a href="" class="px-3 py-[7px] rounded-md border border-slate-300 text-sm hover:bg-slate-50">Oppo A3s</a>
+            <a href="" class="px-3 py-[7px] rounded-md border border-slate-300 text-sm hover:bg-slate-50">iPad</a>
+            <a href="" class="px-3 py-[7px] rounded-md border border-slate-300 text-sm hover:bg-slate-50">Kulkas 2 Pintu</a>
+            <a href="" class="px-3 py-[7px] rounded-md border border-slate-300 text-sm hover:bg-slate-50">Kotak Sepatu</a>
+            <a href="" class="px-3 py-[7px] rounded-md border border-slate-300 text-sm hover:bg-slate-50">Sleeping Bag</a>
+            <a href="" class="px-3 py-[7px] rounded-md border border-slate-300 text-sm hover:bg-slate-50">Sofa Minimalis</a>
+        </div>
+    </div>
+<!-- AKHIR PENCARIAN POPULER -->
+    </main>
+
+<!-- START FOOTER -->
+    <footer>
+        <section class="w-full mt-12 text-abu">
+            <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+                <h1 class="text-3xl">Barang Trending</h1>
+            </div>
+            <div class="w-[95%] h-auto m-auto grid grid-cols-3 gap-8">
+                <nav class="">
+                    <nav>
+                        <h1 class="text-lg mt-4">Handphone & Aksesoris</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-xiaomi">HP Xiaomi</a> |   </li> 
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-samsung"> HP Samsung</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-oppo">HP Oppo</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-iphone">Iphone</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-asus">HP Asus</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-vivo">HP Vivo</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-lenovo">HP Lenovo</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/power-bank/m-vivan">Power Bank Vivan</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/power-bank/m-wellcomm">Power Bank Wellcomm</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/tag/power-bank-robot">Power Bank Robot</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/power-bank/m-samsung">Power Bank Samsung</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/headset-earphone/m-sennheiser">Headset Sennheiser</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/headset-earphone/m-jabra">Earphone Jabra</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/handphone">Handphone &amp; Aksesoris</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <h1 class="text-lg mt-8">Komputer & Kamera</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-xiaomi">Laptop Asus</a> |  </li> 
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-samsung">Laptop Acer</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-oppo">Macbook</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-iphone">Laptop Lenovo</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-asus">Laptop Dell</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-vivo">Laptop HP</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/hp-smartphone/m-lenovo">Laptop MSI</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/power-bank/m-vivan">KOmputer Lainnya</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/power-bank/m-wellcomm">Printer Epson</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/tag/power-bank-robot">Printer Canon</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/power-bank/m-samsung">Mouse Logitech</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/headset-earphone/m-sennheiser">Kamera</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/handphone/headset-earphone/m-jabra">GoPro</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/handphone">Canon</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/handphone">DSLR Nikon</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/handphone">Tripod Excell</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/handphone">Kamera lainnya</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <h1 class="text-lg mt-[43px]">Motor & Mobil</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/motor/m-honda">Motor Honda</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/motor/m-yamaha">Motor Yamaha</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/motor/m-viar">Motor Viar</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/motor/m-kawasaki">Motor Kawasaki</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/outwear-motor/helm/m-kyt">Helm KYT</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/outwear-motor/helm/m-ink">Helm INK</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/sparepart-motor/velg-ban/m-fdr">Ban FDR</a></li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/motor-471/sparepart-motor/velg-ban/m-irc">Ban IRC</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/motor-471">Perlengkapan motor</a></li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/mobil-part-dan-aksesoris/aksesoris-mobil">Aksesoris mobil</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/mobil-part-dan-aksesoris/audio-mobil">Audio mobil</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/mobil-part-dan-aksesoris/interior-mobil">Interior mobil</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/mobil-part-dan-aksesoris">Perlengkapan mobil</a></li></ul>
+                    </nav>
+                </nav>
+
+                <nav>
+                    <nav>
+                        <h1 class="text-lg mt-4">Elektronik</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/televisi/m-polytron">TV Polytron</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/televisi/m-sharp">TV Sharp</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/televisi/m-samsung">TV Samsung</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/televisi/m-lg">TV LG</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/ac/m-panasonic">AC Panasonic</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/ac/m-daikin">AC Daikin</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/ac/m-sharp">AC Sharp</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/kulkas-showcase/m-lg">Kulkas LG</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/kulkas-showcase/m-sharp">Kulkas Sharp</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/kulkas-showcase/m-polytron">Kulkas Polytron</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/mesin-cuci/m-sharp">Mesin Cuci Sharp</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/mesin-cuci/m-lg">Mesin Cuci LG</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/mesin-cuci/m-samsung">Mesin Cuci Samsung</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/elektronik/mesin-cuci/m-polytron">Mesin Cuci Polytron</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/elektronik">Elektronik lainnya</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <h1 class="text-lg mt-8">Kesehatan & Kecantikan</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/perawatan-kecantikan/makeup/m-maybelline">Makeup Maybelline</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/perawatan-kecantikan/makeup/wajah/m-wardah">Wardah</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/perawatan-kecantikan/makeup/wajah/m-sariayu">Sari Ayu</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/perawatan-kecantikan/parfum/wanita/m-bvlgari">Parfum Bvlgari</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/kesehatan-2359">Produk kesehatan</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/perawatan-kecantikan">Produk kecantikan</a></li>
+                        </ul>
+                    </nav>
+
+                      <nav>
+                        <h1 class="text-lg mt-[105px]">Fashion</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-wanita/jilbab-2571/m-rabbani">Jilbab Rabbani</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-wanita/jam-tangan/m-alexandre-christie">Jam Tangan Alexandre Christie</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-pria/jam-tangan-171/m-casio">Jam Tangan Casio</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-wanita/jilbab-2571/m-zoya">Jilbab Zoya</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/brand/converse">Converse</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-pria/baju-muslim-perlengkapan-sholat/sarung-2419/m-wadimor">Sarung Wadimor</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-pria/celana-299/m-blackhawk">Celana Blackhawk</a> |  </li>
+                            <li><a href="https://www.bukalapak.com/c/fashion-pria/kaos-165/m-three-second">3 Second</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/fashion-pria/dompet-302/m-montblanc">Dompet Motblanc</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/fashion-wanita">Fashion wanita</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/fashion-pria">Fashion pria</a> |  </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/fashion-anak">Fashion anak</a> |  </li>
+                        </ul>
+                    </nav>
+                </nav>
+
+                <nav>
+                    <nav>
+                        <h1 class="text-lg mt-4">Sepeda</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/m-polygon">Sepeda Polygon</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/m-united">Sepeda United</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/m-wimcycle">Sepeda Wimcycle</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike">Sepeda Fullbike</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/sepeda-lipat">Sepeda Lipat</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/mtb">Sepeda MTB</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/bmx">Sepeda BMX</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/roadbike">Sepeda Roadbike</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/city-bike">Sepeda City bike</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/fixie">Sepeda Fixie</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/sepeda/fullbike/onthel">Sepeda Onthel</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/sepeda">Sepeda terbaru</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <h1 class="text-lg mt-14">Hobi Koleksi & Olahraga</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/brand/yonex">Yonex</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/brand/eiger">Eiger</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/brand/adidas">Adidas</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/brand/nike">Nike</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/olahraga/sepakbola-futsal/sepatu-bola/m-specs">Sepatu Bola Specs</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/olahraga/sepakbola-futsal/sepatu-futsal/m-puma">Sepatu Futsal Puma</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/olahraga/sepakbola-futsal/bola/m-mikasa">Bola Mikasa</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/olahraga/basket/bola-basket/m-spalding">Bola Basket Spalding</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/olahraga/exercise-fitness/sepatu-olahraga/m-league">Sepatu League</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/hobi-koleksi/musik/gitar/m-yamaha">Gitar Yamaha</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/hobi-koleksi/mainan/boneka/m-doraemon">Boneka Doraemon</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/hobi-koleksi/mainan/action-figure/m-bandai">Action Figure Bandai</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/hobi-koleksi/mainan/diecast/m-hot-wheels">Diecast Hot Wheels</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/hobi-koleksi/musik/bass/m-fender">Bass Fender</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/hobi-koleksi">Hobi koleksi lainnya</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/olahraga">Perlengkapan olahraga</a></li>
+                        </ul>
+                    </nav>
+
+                    <nav>
+                        <h1 class="text-lg mt-8">Kategori Lainnya</h1>
+                        <ul class="flex flex-wrap font-famil2 text-[15px]">
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/rumah-tangga">Rumah Tangga</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/food">Makanan</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/perlengkapan-bayi">Perlengkapan bayi</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/perlengkapan-kantor">Perlengkapan kantor</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/industrial">Industrial</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/pencarian-populer/tiket-voucher">Tiket &amp; Voucher</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/games">Games</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/media">Media</a> | </li>
+                            <li class="hover:underline"><a href="https://www.bukalapak.com/c/evoucher">E-voucher</a> | </li>
+                            <li class="hover:underline"><a href="https://m.bukalapak.com/bukagames">Bukagames</a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </section>
+
+        <section class="w-full mt-12 text-abu">
+            <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+                <h1 class="text-3xl">Belanja online murah di Bukalapak</h1>
+            </div>
+            <div class="w-[95%] m-auto mt-5 font-famil2 text-[15px]">
+                <p>
+                    Bukalapak merupakan situs belanja online terpercaya di Indonesia yang menjual beragam produk yang dibutuhkan
+                    seluruh masyarakat Indonesia. Seiring berkembangnya teknologi, semakin banyak aktivitas yang dilakukan secara
+                    digital, lebih mudah dan praktis, termasuk kegiatan pembelanjaan yang kini semakin marak dilakukan secara
+                    digital, baik melalui komputer, laptop, hingga smartphone yang bisa diakses kapan saja dan di mana saja.
+                    Bukalapak hadir sebagai toko online terpercaya dengan sistem konsumen ke konsumen. Hal ini memungkinkan setiap
+                    orang untuk menjual dan juga membeli produk dengan mudah secara online. Sarana jual beli online Bukalapak
+                    memiliki visi untuk menjadi marketplace nomor satu di Indonesia dengan misi untuk memberdayakan UKM di seluruh
+                    penjuru Indonesia. Setiap orang di Indonesia dapat memasarkan produk unggulannya di Bukalapak dengan membuka
+                    toko online murah dengan pilihan sistem belanja satuan dan juga grosir.
+                  </p>
+            </div>
+        </section>
+
+        <section class="w-full mt-12 ">
+            <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+                <h1 class="text-3xl text-abu">Keunggulan Belanja Online di Bukalapak</h1>
+            </div>
+           <ul class="w-[92%] m-auto list-disc mt-4 font-famil2 text-[15px]">
+                <li>
+                    <p class="text-abu ml-2">
+                    Kategori Produk Terlengkap. Salah satu keunggulan yang bisa langsung dirasakan dengan belanja di Bukalapak
+                    adalah lengkapnya kategori produk. Halaman situs Bukalapak memiliki tampilan navigasi kategori barang
+                    untuk memudahkan pembeli dalam memilih produk yang dinginkan. Kategori tersedia lengkap mulai dari
+                    kebutuhan rumah tangga, elektronik rumah tangga, furniture rumah tangga, hingga gadget dan smartphone.
+                    Bukalapak juga dikenal baik sebagai toko online murah untuk kategori sepeda beserta aksesorisnya lengkap.
+                    Tidak hanya itu, tersedia juga produk fashion anak, pria, dan wanita, serta produk otomotif yang kini juga
+                    sudah tersedia dalam fitur BukaMobil.
+                    </p>
+                </li>
+                <li class="mt-2">
+                    <p class="text-abu ml-2">
+                    Promo Meriah. Selain lengkapnya kategori produk yang tersedia, Bukalapak juga menawarkan harga promo
+                    menarik setiap harinya yang bisa Anda akses pada halaman promo. Terdapat banyak pilihan promo dengan masa
+                    berlaku yang beragam untuk berbagai produk, di antaranya promo smartphone hingga promo tiket kereta murah.
+                    Caranya juga sangat mudah, Anda hanya perlu memasukkan kode voucher atau kode promo yang sedang berlaku
+                    untuk produk yang Anda inginkan.
+                    </p>
+                </li>
+                <li class="mt-2">
+                    <p class="text-abu ml-2">
+                    Virtual Product. Situs jual beli online Bukalapak juga menyediakan virtual product dalam bentuk e-voucher
+                    dan tiket, mulai dari tiket pesawat, tiket kereta,
+                    <a href="https://www.bukalapak.com/pulsa" class="text-red">pulsa</a>,
+                    <a href="https://www.bukalapak.com/bl/paket-data" class="text-red">paket data</a>,
+                    <a href="https://www.bukalapak.com/listrik-pln/tagihan-listrik" class="text-red">tagihan listrik</a>,
+                    <a href="https://www.bukalapak.com/listrik-pln/token-listrik" class="text-red">token listrik</a>,
+                    <a href="https://www.bukalapak.com/angsuran-kredit" class="text-red">angsuran kredit</a>,
+                    <a href="https://www.bukalapak.com/angsuran-kredit" class="text-red">air PDAM</a>,
+                    <a href="https://www.bukalapak.com/kartu-prakerja" class="text-red">kartu prakerja</a>
+                    hingga voucher game. Harga yang
+                    ditawarkan juga lebih murah dibandingkan toko lainnya sehingga belanja Anda lebih hemat. Tersedia juga
+                    fitur pembayaran zakat profesi yang bisa Anda bayarkan dengan sangat mudah dan praktis dengan bantuan
+                    kalkulator zakat untuk menghitung bayaran zakat yang sebaiknya dibayar.
+                    </p>
+                </li>
+                <li class="mt-2">
+                    <p class="text-abu ml-2">
+                    Aman dan Terpercaya. Belanja online di Bukalapak tidak perlu khawatir tertipu dengan adanya jaminan 100%
+                    aman. Pembeli diberikan jaminan 100% uang kembali apabila produk yang sudah Anda bayar tidak kunjung tiba
+                    di tempat Anda. Tak jarang orang yang khawatir tertipu sehingga memilih untuk beli offline. Singkirkan
+                    segala keraguan belanja online dengan adanya jaminan uang aman 100% di Bukalapak.
+                    </p>
+                </li>
+                <li class="mt-2">
+                    <p class="text-abu ml-2">
+                    Sistem Pembayaran Mudah. Situs belanja online terpercaya Bukalapak menawarkan beragam sistem pembayaran
+                    untuk memudahkan jual beli online Anda, di antaranya pembayaran yang praktis melalui BukaDompet, yakni
+                    dompet virtual yang bisa Anda isi dengan melakukan transfer sehingga memudahkan Anda dalam ativitas
+                    shoping setiap harinya di Bukalapak. Selain itu, ada juga pembayaran melalui bank transfer, instant
+                    payment melalui BCA KlikPay, Mandiri E-Cash, dan CIMB Clicks, serta sistem cicilan yang bisa Anda lakukan
+                    dengan kartu kredit dan juga cicilan Kredivo.
+                    </p>
+                </li>
+                <li class="mt-2">
+                    <p class="text-abu ml-2">
+                    Fitur Lengkap. Sebagai marketplace terkemuka di Indonesia, Bukalapak menawarkan pengalaman jual beli
+                    online modern yang lebih baik dengan adanya fitur-fitur inovatif, di antaranya BukaReksa untuk
+                    <a href="https://www.bukalapak.com/bukareksa" class="text-red">investasi reksadana</a>
+                    Anda, BukaMobil yang menawarkan
+                    belanja online mobil yang aman dengan diskon besar dan pembayaran cicilan yang mudah, BukaIklan,
+                    BukaPengadaan, hingga
+                    <a href="https://www.bukalapak.com/bukaemas" class="text-red">investasi emas</a>
+                     yang mudah di
+                    BukaEmas.
+                    </p>
+                </li>
+                <li class="mt-2">
+                    <p class="text-abu ml-2">
+                    Promo Meriah di Harbolnas 2022. Selama Harbolnas di tahun ini kamu memiliki
+                    kesempatan untuk mendapatkan barang dengan harga murah. Jadi pastikan dompetmu cukup dan koneksi
+                    internetmu lancar demi mendapatkan barang impianmu di event jual &amp; beli online terbesar di Indonesia
+                    ini.
+                    </p>
+                </li>
+           </ul>
+        </section>
+
+        <section class="w-full mt-12 ">
+            <div class="w-[95%] m-auto flex items-end justify-between font-semibold">
+                <h1 class="text-3xl text-abu">Kembangkan Online Shop Anda di Bukalapak</h1>
+            </div>
+            <br>
+            <div class="w-[95%] m-auto font-famil2 text-[15px]">
+                <p class="text-abu">
+                    Tidak hanya menawarkan produk dengan harga murah terjangkau, Bukalapak juga menawarkan jual online untuk Anda
+                    yang memiliki online shop sendiri dan ingin memasarkan produknya ke penjuru Indonesia. Hal ini bisa Anda
+                    lakukan untuk jual beli berbagai produk dengan sangat mudah. Berikut ini beberapa tips untuk memudahkan Anda
+                    dalam berjualan online di Bukalapak.
+                </p>
+                <ul class="w-[96.5%] m-auto list-disc mt-4 font-famil2">
+                    <li class="mt-2">
+                        <p class="text-abu ml-2">
+                            Bagi Anda yang memiliki online shop dan ingin memasarkannya di Bukalapak, pastikan memasang foto barang
+                            terbaik agar dapat menarik minat pembeli. Jangan lupa juga untuk memastikan kualitas barang serta kualitas
+                            pengemasan produk agar memuaskan konsumen dan memberikan feedback positif untuk lapak Anda.
+                        </p>
+                    </li>
+                    <li class="mt-2">
+                        <p class="text-abu ml-2">
+                            Manfaatkan fitur pelapak yang ditawarkan. Bukalapak menyediakan banyak fitur premium account untuk
+                            membantu penjualan Anda, di antaranya adalah fitur Push yang akan menampilkan barang jualan Anda pada
+                            halaman pertama. Selain itu, ada juga fitur Promoted Push yang bisa Anda manfaatkan pada momen-momen
+                            khusus seperti tanggal gajian atau hari raya. Pada tanggal-tanggal tersebut biasanya banyak orang yang
+                            melakukan aktivitas berbelanja online dan mencari promo meriah pada situs jual beli online terpercaya.
+                        </p>
+                    </li>
+                    <li class="mt-2">
+                        <p class="text-abu ml-2">
+                            Bukalapak juga menyediakan fitur BukaModal yang merupakan pinjaman modal dari Bukalapak untuk Anda yang
+                            ingin mengembangkan lapak menjadi lebih besar. Manfaatkan peluang bisnis jual online dari BukaModal yang
+                            dikeluarkan oleh Bukalapak dengan kerja sama bank BTPN dan Modalku. Masalah dana kini bukan lagi menjadi
+                            penghalang Anda untuk mendapatkan keuntungan jualan online.
+                        </p>
+                    </li>
+                </ul>
+                <br>
+                <p class="text-abu">
+                    Tunggu apa lagi? Kembangkan toko online Anda dengan mempromosikan produk-produk unggulan Anda di Bukalapak!
+                    Selain itu, Bukalapak juga bekerja sama dengan brand-brand terkemuka dengan menghadirkan toko resmi brand
+                    terbaik untuk kategori elektronik hingga fashion sehingga Anda dapat memastikan produk yang Anda beli
+                    merupakan produk original 100%. Produk lengkap, berkualitas, harga murah dengan promo diskon setiap hari,
+                    serta sistem pembayaran dan pengiriman yang aman menjadikan Bukalapak sebagai e-commerce terpercaya dan
+                    terkemuka andalan masyarakat Indonesia.
+                </p>
+                <br>
+                <p class="text-abu">
+                    Jadi Pastikan Anda memiliki online shop di Bukalapak, Tempat Jual Beli Online Terpercaya di Indonesia
+                </p>
+            </div>
+            <br><br><br>
+            <div class="w-[95%] m-auto grid grid-cols-6 gap-5 text-abu">
+                <nav class="text-start">
+                    <img src="../img/img9/kunci.png" alt="" class="w-16 h-16">
+                    <h6 class="text-base font-bold mt-5">Jaminan 100% Aman</h6>
+                    <p class="text-sm mt-2">Payment system Bukalapak menjamin keamanan uang Anda dalam bertransaksi. Pelajari amannya Bukalapak</p>
+                </nav>
+
+                <nav class="text-start">
+                    <img src="../img/img9/dompet.png" alt="" class="w-16 h-16">
+                    <h6 class="text-base font-bold mt-5">Kemudahan Pembayaran</h6>
+                    <p class="text-sm mt-2">Bukalapak menyediakan berbagai metode pembayaran untuk bertransaksi</p>
+                </nav>
+
+                <nav class="text-start">
+                    <img src="../img/img9/earphone.png" alt="" class="w-16 h-16">
+                    <h6 class="text-base font-bold mt-5">Professional CS</h6>
+                    <p class="text-sm mt-2">
+                        Customer Support Bukalapak siap membantu Anda melalui
+                        <a href="https://bukabantuan.bukalapak.com?from=bl_footer" class="bl-link is-contrast">
+                          Bukabantuan
+                        </a>
+                    </p>
+                </nav>
+
+                <nav class="text-start">
+                    <img src="../img/img9/balon-udara.png" alt="" class="w-16 h-16">
+                    <h6 class="text-base font-bold mt-5">Berbagai Jasa Pengiriman</h6>
+                    <p class="text-sm mt-2">Bukalapak menyediakan berbagai pilihan jasa pengiriman dengan jangkauan nasional</p>
+                </nav>  
+
+                <nav class="text-start">
+                    <img src="../img/img9/character.png" alt="" class="w-16 h-16">
+                    <h6 class="text-base font-bold mt-5">6 Manfaat Untuk Pelapak</h6>
+                    <p class="text-sm mt-2">Dapatkan keuntungan seperti akses ke komunitas Bukalapak serta tips dan trik berjualan online</p>
+                </nav>
+
+                <nav class="text-start">
+                    <img src="../img/img9/os.png" alt="" class="w-16 h-16">
+                    <h6 class="text-base font-bold mt-5">Kemudahan Akses Mobile</h6>
+                    <p class="text-sm mt-2">Download aplikasi Bukalapak di Android dan iOS. Nikmati kemudahan jual beli dari gadget Anda</p>
+                </nav>
+            </div>
+        </section>
+        <br><br><br>
+        <hr>
+        <br><br><br>
+        <section class="w-[95%] m-auto grid grid-cols-new">
+            <div class="h-56">
+                <p class="text-abu flex">Metode Pembayaran</p>
+                <nav class="flex flex-wrap gap-7 mt-5">
+                    <img src="../img/img10/pay/visa2.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/mastercard.png" alt="" class="w-13 h-5">
+                    <img src="../img/img10/pay/jcb.png" alt="" class="w-10 h-5">
+                    <img src="../img/img10/pay/american-express-1-logo-png-transparent.png" alt="" class="w-8 h-8">
+                    <img src="../img/img10/pay/redivo.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/Akulaku.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/dana.webp" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/ovo.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/bca_klikpay.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/mandiri_klikpay.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/linkajared.png" alt="" class="w-8 h-8">
+                    <img src="../img/img10/pay/cimbniaga.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/indomaret.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/alfamaret.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/alfamidi.png" alt="" class="w-16 h-5">
+                    <img src="../img/img10/pay/pos indonesia.png" alt="" class="w-14 h-[22px]">
+                    <img src="../img/img10/pay/brimo.webp" alt="" class="w-10 h-8">
+                    <img src="../img/img10/pay/oneklik.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/mitrabukalapak.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/ceria.jpg" alt="" class="w-14 h-5">
+                    <img src="../img/img10/pay/linkaja.png" alt="" class="w-8 h-8">
+                </nav>
+            </div>
+            <div class="">
+                <p class="text-abu">Bank Transfer</p>
+                <nav class="flex flex-wrap gap-8 mt-5">
+                    <img src="../img/img10/transfer/bca.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/mandiri.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/briva.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/bni.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/permata.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/danamon.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/cimbniaga.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/btn.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/OCBC.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/transfer/bsi.png" alt="" class="w-14 h-5">
+                </nav>
+            </div>
+            <div class="h-56 col-span-4">
+                <p class="text-abu">Jasa Pengiriman</p>
+                <nav class="flex flex-wrap gap-8 mt-5">
+                    <img src="../img/img10/send/JNE.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/tiki.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/pos indonesia.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/wahana.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/rpx.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/sicepat.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/Gosend.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/ninja_express.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/j&t.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/grab-express.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/lion parcel.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/paxel.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/jani.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/rocket.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/indah.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/buka_express.png" alt="" class="w-14 h-5">
+                    <img src="../img/img10/send/antareja.jpg" alt="" class="w-14 h-5">
+                </nav> 
+            </div>
+        </section>
+
+        <section class="w-full h-[72px] border-y bg-white font-famil2 text-sm">
+            <header class="w-[95%] h-[72px] grid grid-cols-new2">
+                <div class="flex items-center justify-start">
+                    <a href="#"><img src="../img/logo.svg" alt="" class="w-32 ml-[34px] mr-2"></a>
+                    <p>situs jual beli online mudah & terpercaya</p>
+                </div>
+                
+                <div class="flex items-center justify-end">
+                    <p>Temukan kami di :</p>
+                    <ul class="flex items-center gap-1 ml-3">
+                        <li><a href=""><img src="../img/img11/facebook.png" alt="" class="w-6 h-6"></a></li>
+                        <li><a href=""><img src="../img/img11/twiter.png" alt="" class="w-6 h-6"></a></li>
+                        <li><a href=""><img src="../img/img11/youtube.png" alt="" class="w-6 h-6"></a></li>
+                        <li><a href=""><img src="../img/img11/instagram.png" alt="" class="w-6 h-6"></a></li>
+                        <li><a href=""><img src="../img/img11/in.png" alt="" class="w-6 h-6"></a></li>
+                    </ul>
+                </div>    
+            </header>
+        </section>
+        <br><br>
+        <section>
+            <article class="w-[95%] m-auto grid grid-cols-new3 gap-10">
+                <div class="text-[14px] flex flex-col gap-3">
+                    <a href="" class="py-1 px-6 border hover:text-red hover:underline text-center font-bold">BukaBantuan (Hubungi Kami)</a>
+                    <a href="" class="py-2 px-6 border hover:text-red hover:underline text-center font-bold">FAQ (Tanya Jawab)</a>
+                    <a href="" class="py-2 px-6 border hover:text-red hover:underline text-center font-bold">Panduan Belanja</a>
+                    <a href="" class="py-2 px-6 border hover:text-red hover:underline text-center font-bold">Panduan Pelapak</a>
+                    <a href="" class="py-2 px-6 border hover:text-red hover:underline text-center font-bold">Panduan Keamanan</a>
+                    <a href="" class="py-2 px-6 border hover:text-red hover:underline text-center font-bold">Panduan HAKI (IPR Guide)</a>
+                </div>
+
+                <div>
+                    <h3 class="text-abu text-[15px] font-bold">Bukalapak</h3>
+                    <ul class="text-xs block mt-3">
+                        <li><a href="">Tentang Bukalapak</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Informasi Saham Bukalapak</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Aturan Penggunaan</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Kebijakan Privasi</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Karir di Bukalapak</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Vulnerability Reports</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Blog Bukalapak</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">FAQ (Tanya Jawab)</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Mitra</a></li>
+                    </ul>
+                    
+                </div>
+
+                <div>
+                    <h3 class="text-abu text-[15px] font-bold">Pembeli</h3>
+                    <ul class="text-xs block mt-3">
+                        <li><a href="">Cara Belanja</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Pembayaran</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Jaminan Aman</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Halaman Tag</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Jasa Pengadaan</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Promo</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">BukaReview</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-abu text-[15px] font-bold">Pelapak</h3>
+                    <ul class="text-xs block mt-3">
+                        <li><a href="">Cara Berjualan</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Keuntungan jualan</a></li>
+                        <li><a href="" class="block mt-3 hover:text-red">Indeks Merek</a></li>
+                    </ul>
+                </div>
+                <div class="flex gap-3 -ml-12">
+                    <img src="../img/img12/playstore1.png" alt="" class="w-36 h-10 rounded-lg">
+                    <img src="../img/img12/playstore2.png" alt="" class="w-36 h-10 rounded-lg">
+                </div>
+            </article>
+            <br><br>
+            <hr>
+
+        </section>
+
+        <section class="w-[95%] h-14 m-auto flex items-center gap-4">
+            <p class="text-xs text-abu">© 2022 Hak Cipta Terpelihara PT Bukalapak.com.</p>
+            <a href="" class="block hover:underline text-red text-xs">Peta Situs</a>
+            <a href="" class="block hover:underline text-red text-xs">Liputan 6</a>
+        </section>
+    </footer>
+
+    <script src="../js/carousel1.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
